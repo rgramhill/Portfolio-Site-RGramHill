@@ -1,0 +1,88 @@
+/*
+Colors used:
+Primary Color (Blue): #05676e;
+Secondary Color (Green): #489c79;
+*/
+body {
+  background-color: #f6f8fa;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+h4 {
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #8f0689;
+  text-decoration: none;
+}
+
+a:visited {color: #4600a2
+}
+
+a:hover,
+a:focus {
+  color: #6a1e48;
+  text-decoration: underline;
+}
+
+a:active { color: #da3c94}
+
+
+.button {
+  display: inline-block;
+  background-color: #a66ec5;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #754e8a;
+  transition: 0.2s opacity;
+  }
+
+  .button:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.button:active { color: #da3c94}
+
+
+
+.button.contact {
+  background-color: transparent;
+  color: #37017d;
+  text-transform: uppercase;
+  border: 2px solid #37017d;
+}
+
+
+.button.contact:hover {
+  background-color: #f3e9ff;
+  color: #37017d;
+}

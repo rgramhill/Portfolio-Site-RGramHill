@@ -3,6 +3,11 @@ Colors used:
 Primary Color (Blue): #05676e;
 Secondary Color (Green): #489c79;
 */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f6f8fa;
   font-family: 'Outfit', sans-serif;
@@ -16,7 +21,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.75em;
+  font-size: 2.5em;
   font-weight: 800;
 }
 
@@ -47,8 +52,8 @@ a:visited {color: #4600a2
 
 a:hover,
 a:focus {
-  color: #6a1e48;
-  text-decoration: underline;
+  color: #261E40;
+  font-weight: 800;
 }
 
 a:active { color: #da3c94}
@@ -56,33 +61,115 @@ a:active { color: #da3c94}
 
 .button {
   display: inline-block;
-  background-color: #a66ec5;
-  color: #ffffff;
+  background-color: #2C2B2B;
+  color:#ffffff;
   font-weight: 600;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #754e8a;
+  border-bottom: 2px solid #320F2A;
   transition: 0.2s opacity;
   }
 
   .button:hover {
   opacity: 0.8;
-  text-decoration: underline;
+  font-weight: 800;
+  color: #ffffff
 }
 
-.button:active { color: #da3c94}
+.button:active { color: #6E163F}
 
 
 
 .button.contact {
   background-color: transparent;
-  color: #37017d;
+  color: #261E40;
   text-transform: uppercase;
-  border: 2px solid #37017d;
+  border: 2px solid #261E40;
 }
 
 
 .button.contact:hover {
-  background-color: #f3e9ff;
-  color: #37017d;
+  background-color: #FFF6F9;
+  color: #261E40;
+  font-weight: 800;
+}
+
+
+header {
+  background-color: #F0F0F0;
+  padding: 10px;
+  position: fixed;
+  margin: 0 auto;
+  border-bottom: 2px solid #2C2B2B;
+  text-align: center;
+  box-shadow:  0px 4px 20px 0px rgba(50, 50, 50, 0.39);
+  width: 100%;
+}
+
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #2C2B2B; }
+
+#logo {max-width: 250px}
+
+
+.center {
+  text-align: center;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+nav {
+  display: inline-block;
+  width: 100%
+}
+
+
+
+#hero {
+  background-color: #F0F0F0;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%
+}
+
+main {
+  padding-top: 186.69px;
+}
+
+
+footer {
+  text-align: center;
+}
+
+#email {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#LinkedIn {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

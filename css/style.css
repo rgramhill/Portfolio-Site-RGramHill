@@ -9,7 +9,7 @@ Secondary Color (Green): #489c79;
 }
 
 body {
-  background-color: #f6f8fa;
+  background-color: #ffffff;
   font-family: 'Outfit', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -43,16 +43,16 @@ img {
 }
 
 a {
-  color: #8f0689;
+  color: #000000;
   text-decoration: none;
 }
 
-a:visited {color: #4600a2
+a:visited {color: #515050
 }
 
 a:hover,
 a:focus {
-  color: #261E40;
+  color: #1D1D1D;
   font-weight: 800;
 }
 
@@ -63,7 +63,7 @@ a:active { color: #da3c94}
   display: inline-block;
   background-color: #2C2B2B;
   color:#ffffff;
-  font-weight: 600;
+  font-weight: 400;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #320F2A;
@@ -96,7 +96,7 @@ a:active { color: #da3c94}
 
 
 header {
-  background-color: #F0F0F0;
+  background-color: #ffffff;
   padding: 10px;
   position: fixed;
   margin: 0 auto;
@@ -119,7 +119,8 @@ header {
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #2C2B2B; }
 
-#logo {max-width: 250px}
+#logo {max-width: 275px;
+}
 
 
 .center {
@@ -149,10 +150,10 @@ nav {
 
 
 #hero {
-  background-color: #F0F0F0;
+  background-color: #fffff;
   padding: 20px 0;
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 main {

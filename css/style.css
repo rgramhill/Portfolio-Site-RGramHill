@@ -28,6 +28,8 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: 500;
+  color: #2C2B2B;
+  text-align: center;
 }
 
 h3 {
@@ -119,7 +121,7 @@ header {
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #2C2B2B; }
 
-#logo {max-width: 275px;
+#logo {max-width: 175px;
 }
 
 
@@ -140,24 +142,30 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 16px;
 }
 
 nav {
   display: inline-block;
-  width: 100%
+  width: auto;
+  float: right;
 }
 
 
 
 #hero {
   background-color: #fffff;
-  padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
+}
+
+#hero span {
+  display: block;
 }
 
 main {
-  padding-top: 186.69px;
+  padding-top: 160px;
 }
 
 
@@ -173,4 +181,108 @@ footer {
 #LinkedIn {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#homepagepic img {
+  max-width: 800px
+}
+
+#portrait img {
+  max-width: 400px
+}
+
+
+
+
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+  header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+
+nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  main {
+    padding-top: 99px;
+  }
+
+body{
+  font-size: 18px;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#about-page h3 { margin-top: 0;}
+
+
+
+}
+
+
+
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+
+
+  #logo {max-width: 200px;
+  }
+
+  .col-md-7 {
+    width: 60%;
+  }
+
+  .col-md-5 {
+    width: 40%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+  margin-right: auto;
+  }
+
+
+      main {
+        padding-top: 135px;
+        padding-bottom: 30px;
+      }
+
+#work {
+  padding-top: 65px;
+}
+
+
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }

@@ -49,13 +49,12 @@ a {
   text-decoration: none;
 }
 
-a:visited {color: #515050
+a:visited {color: #515050;
 }
 
 a:hover,
 a:focus {
-  color: #1D1D1D;
-  font-weight: 800;
+  color: #6E163F;
 }
 
 a:active { color: #da3c94}
@@ -65,16 +64,19 @@ a:active { color: #da3c94}
   display: inline-block;
   background-color: #2C2B2B;
   color:#ffffff;
-  font-weight: 400;
+  font-weight: 300;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #320F2A;
   transition: 0.2s opacity;
   }
 
+  .button a:visited {
+    color:#ffffff;
+  }
+
   .button:hover {
   opacity: 0.8;
-  font-weight: 800;
   color: #ffffff
 }
 
@@ -99,13 +101,18 @@ a:active { color: #da3c94}
 
 header {
   background-color: #ffffff;
-  padding: 10px;
+  padding: 5px;
   position: fixed;
   margin: 0 auto;
   border-bottom: 2px solid #2C2B2B;
   text-align: center;
   box-shadow:  0px 4px 20px 0px rgba(50, 50, 50, 0.39);
   width: 100%;
+}
+
+
+#phone {
+  font-weight: 500;
 }
 
 
@@ -188,7 +195,9 @@ footer {
 }
 
 #portrait img {
-  max-width: 400px
+  max-width: 400px;
+  text-align: center;
+  border-radius: 150px;
 }
 
 
@@ -203,7 +212,7 @@ Medium devices (640px and larger)
 
   header {
   text-align: unset;
-  padding: 20px 0 13px;
+  padding: 5px 0 5px;
 }
 
 nav {
@@ -237,8 +246,6 @@ body{
 
 #about-page h3 { margin-top: 0;}
 
-
-
 }
 
 
@@ -271,7 +278,7 @@ Large devices (1024px or larger)
 
       main {
         padding-top: 135px;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
       }
 
 #work {

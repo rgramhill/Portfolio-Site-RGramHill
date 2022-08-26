@@ -340,6 +340,24 @@ nav > ul {
   margin: 1em 0;
 }
 
+.navtoggle.responsive li  {
+  display: inline-block;
+}
+
+.navtoggle.responsive nav {
+  padding: None;
+}
+.navtoggle.responsive li  {
+  display: inline-block;
+  padding: none;
+  border-top: none;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: None;
+  border-top: None;
+}
+
 
 /* ==============================
 Large devices (1024px or larger)

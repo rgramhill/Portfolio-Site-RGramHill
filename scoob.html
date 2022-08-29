@@ -1,100 +1,105 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>RGramHill Portfolio Site</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="img/favicon.ico" rel="shortcut icon">
-    <script src="https://kit.fontawesome.com/38c4d27468.js" crossorigin="anonymous"></script>
-  </head>
 
-  <body>
-    <header>
-      <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
+<head>
+  <meta charset="utf-8">
+  <title>RGramHill Portfolio Site</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="img/favicon.ico" rel="shortcut icon">
+  <script src="https://kit.fontawesome.com/38c4d27468.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
         <a href="index.html"><img src="img/Logo-signature.png" alt="Logo Image" id="logo" class="logo"></a>
         <nav>
           <ul class="navigation">
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="img/Robert-Hill-resume-2022.pdf" target= "_blank">Resume</a>
-              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="img/Robert-Hill-resume-2022.pdf" target="_blank">Resume</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
       </div>
-      </div>
-    </header>
-
-
-
-
-
-
-<main>
-
-  <div>
-    <div class="container">
-      <h1>Scoob: Responsive Web App Design</h1>
     </div>
-  </div>
+  </header>
 
 
 
 
-  <div>
+
+
+  <main>
+
+    <div>
+      <div class="container">
+        <h1>Scoob: Responsive Web App Design</h1>
+      </div>
+    </div>
+
+
+
+
+    <div>
+      <div class="container">
+
+        <picture>
+          <source srcset="img/Scoob/Scoob-Case-Study@1x.png" media="(max-width:767px)">
+          <img src="img/Scoob/Scoob-Case-Study@2x.png" alt="Scoob Case Study @2x">
+        </picture>
+
+
+      </div>
+    </div>
+
+
+  </main>
+
+
+
+
+
+
+
+  <footer id="contact">
     <div class="container">
+      <div>
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or want to discuss work opportunities, get in touch! Call <a href="tel:+18622025913" id="phone">862-202-5913</a> or email me below.</p>
+      </div>
 
-  <picture>
-    <source srcset="img/Scoob/Scoob-Case-Study@1x.png" media="(max-width:767px)">
-      <img src="img/Scoob/Scoob-Case-Study@2x.png" alt="Scoob Case Study @2x">
-  </picture>
+      <div>
+        <a href="mailto:rgramhill@gmail.com" class="button contact" id="email">Email me</a>
+      </div>
 
+      <div>
+        <a href="https://www.linkedin.com/in/RGramHill/" target="_blank" id="linkedin">
+          <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewbox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+              <path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z" />
+              <path
+                d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z" />
+            </g>
+          </svg>
+        </a>
+      </div>
 
-</div>
-</div>
+      <div>
+        <p>Copyright Robert Gram Hill 2022</p>
+      </div>
+    </div>
+  </footer>
 
-
-</main>
-
-
-
-
-
-
-
-        <footer id="contact">
-          <div class="container">
-            <div>
-              <h2>Get in Touch</h2>
-              <p>If you have any questions or want to discuss work opportunities, get in touch! Call <a href="tel:+18622025913" id="phone">862-202-5913</a> or email me below.</p>
-           </div>
-
-             <div>
-                <a href="mailto:rgramhill@gmail.com" class= "button contact" id="email">Email me</a>
-             </div>
-
-             <div>
-                <a href="https://www.linkedin.com/in/RGramHill/" target= "_blank" id=linkedin>
-                 <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"/><path d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"/></g></svg>
-                </a>
-             </div>
-
-             <div>
-                <p>Copyright Robert Gram Hill 2022</p>
-             </div>
-         </div>
-        </footer>
-
-        <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 
 
-      </body>
-    </html>
+</body>
+
+</html>

@@ -189,16 +189,13 @@ nav > ul > li > a {
 }
 
 
-
-
-
 #hero {
   background-color: #fffff;
   display: inline-block;
   width: 100%;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #hero span {
@@ -283,6 +280,13 @@ footer {
 .homepagelogo img {
   max-width: 200px;
 }
+
+
+
+
+
+
+
 
 
 /* ==============================

@@ -177,6 +177,7 @@ nav > ul > li > a {
 .navtoggle.responsive nav {
   padding: 12px 0 0;
 }
+
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
@@ -352,22 +353,20 @@ nav > ul {
   margin: 1em 0;
 }
 
-.navtoggle.responsive li  {
-  display: inline-block;
+.navtoggle.responsive nav {
+  padding: 0;
 }
 
-.navtoggle.responsive nav {
-  padding: None;
-}
 .navtoggle.responsive li  {
   display: inline-block;
-  padding: none;
+  padding: 0 15px;
   border-top: none;
 }
 
 .navtoggle.responsive li:last-child  {
-  padding: None;
+  padding: 0;
   border-top: None;
+  display: None;
 }
 
 .homepagelogo img {

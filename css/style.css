@@ -49,15 +49,15 @@ a {
   text-decoration: none;
 }
 
-a:visited {color: #515050;
+a:visited {color: #474747;
 }
 
 a:hover,
 a:focus {
-  color: #6E163F;
+  color: #9D7383;
 }
 
-a:active { color: #da3c94}
+a:active { color: #562337}
 
 
 .button {
@@ -82,7 +82,7 @@ a:active { color: #da3c94}
   color: #ffffff
 }
 
-.button:active { color: #6E163F}
+.button:active { color: #9D7383}
 
 
 
@@ -222,9 +222,20 @@ footer {
 }
 
 #LinkedIn {
+  max-width: 75px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
+
+#Behance {
+  max-width: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+
 
 .homepagepic img {
   max-width: 800px

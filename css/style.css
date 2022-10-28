@@ -11,7 +11,7 @@ Secondary Color (Green): #489c79;
 body {
   background-color: #ffffff;
 font-family: 'Outfit', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 200;
   line-height: 1.6;
 }
@@ -22,23 +22,29 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 2.5em;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 1.35em;
+  font-weight: 300;
   color: #2C2B2B;
   text-align: center;
 }
 
 h3 {
   font-size: 1.25em;
-  font-weight: 500;
+  font-weight: 400;
 }
 h4 {
-  font-weight: 500;
+  font-weight: 400;
 }
+
+h5 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
 
 img {
   width: 100%;
@@ -54,7 +60,7 @@ a:visited {color: #474747;
 
 a:hover,
 a:focus {
-  color: #9D7383;
+  color: #1201E9;
 }
 
 a:active { color: #562337}
@@ -65,8 +71,8 @@ a:active { color: #562337}
   background-color: #2C2B2B;
   color:#ffffff;
   font-weight: 300;
-  padding: 12px;
-  border-radius: 3px;
+  padding: 10px;
+  border-radius: 5px;
   border-bottom: 2px solid #320F2A;
   transition: 0.2s opacity;
   margin-top: 25px;
@@ -88,7 +94,7 @@ a:active { color: #562337}
 
 .button.contact {
   background-color: transparent;
-  color: #261E40;
+  color: #1201E9;
   text-transform: uppercase;
   border: 2px solid #261E40;
 }
@@ -103,10 +109,10 @@ a:active { color: #562337}
 
 header {
   background-color: #ffffff;
-  padding: 7px 0 1px;
+  padding: 4px 0 1px;
   position: fixed;
   margin: 0 auto;
-  box-shadow:  0px 4px 20px 0px rgba(50, 50, 50, 0.39);
+  box-shadow:  0px 2px 3px 0px rgba(50, 50, 50, 0.10);
   width: 100%;
 }
 
@@ -130,7 +136,8 @@ header {
 
 
 
-#logo {max-width: 150px;
+#logo {max-width: 40px;
+  margin-left: 5px;
 }
 
 
@@ -148,7 +155,6 @@ nav > ul {
 
 nav > ul > li > a {
 
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
 }
@@ -199,7 +205,7 @@ nav > ul > li > a {
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding-top: 10px;
+
   padding-bottom: 5px;
 }
 
@@ -222,19 +228,51 @@ footer {
   border-color: #2C2B2B;
 }
 
+#emailicon {
+  max-width: 60px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  margin-right: 30px;
+}
+
+
 #LinkedIn {
-  max-width: 75px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  max-width: 60px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 #Behance {
-  max-width: 75px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  max-width: 60px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  margin-left: 30px;
 }
+
+#titleemail {
+max-width: 40px;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+#titlelinkedin {
+max-width: 40px;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#titlebehance {
+max-width: 40px;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
 
 
 
@@ -244,7 +282,8 @@ footer {
 
 #portrait  img {
   border-radius: 450px;
-  max-width: 400px;
+  max-width: 325px;
+  margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 40px;
 }
@@ -287,7 +326,10 @@ footer {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-
+#featuredwork {
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 #work {
   margin-top: 20px;
@@ -300,8 +342,6 @@ footer {
 
 
 
-
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -309,7 +349,7 @@ Medium devices (640px and larger)
 
   header {
   text-align: unset;
-  padding: 5px 0 5px;
+  padding: 2px 0 0px;
 }
 
 nav {
@@ -345,7 +385,7 @@ body{
 #about-page h3 { margin-top: 0;}
 
 #logo {
-  max-width: 175px;
+  max-width: 55px;
 }
 
 nav > ul > li {
@@ -385,13 +425,26 @@ nav > ul {
   max-width: 200px;
 }
 
+
+.titleimage img {
+  max-width: 1000px;
+}
+
+#featuredwork {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+
+
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
 
-  #logo {max-width: 200px;
+  #logo {max-width: 55px;
   }
 
   .col-md-7 {

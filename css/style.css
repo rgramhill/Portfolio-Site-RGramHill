@@ -26,23 +26,50 @@ h1 {
 }
 
 h2 {
-  font-size: 1.35em;
+  font-size: 1.95em;
   font-weight: 300;
   color: #2C2B2B;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.75em;
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
+
 h4 {
   font-weight: 400;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1.95em;
   font-weight: 300;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+h6 {
+  font-size: 1.60em;
+  font-weight: 300;
+  margin-top: 37px;
+}
+
+h7 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+h8 {
+  font-size: 1.95em;
+  font-weight: 300;
+  color: #2C2B2B;
+  text-align: center;
+  margin-top: 10px;
 }
 
 
@@ -253,24 +280,27 @@ footer {
 
 #titleemail {
 max-width: 40px;
-margin-top: 20px;
+margin-top: 25px;
 margin-left: 20px;
 margin-right: 20px;
+margin-bottom: 15px;
 }
 
 
 #titlelinkedin {
 max-width: 40px;
-margin-top: 20px;
+margin-top: 25px;
 margin-left: 20px;
 margin-right: 20px;
+margin-bottom: 15px;
 }
 
 #titlebehance {
 max-width: 40px;
-margin-top: 20px;
+margin-top: 25px;
 margin-left: 20px;
 margin-right: 20px;
+margin-bottom: 15px;
 }
 
 
@@ -457,6 +487,36 @@ nav > ul {
   margin-bottom: 40px;
   margin-left: 30px;
 }
+
+#titleemail {
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+
+#titlelinkedin {
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+#titlebehance {
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 80px;
+  margin-bottom: 65px;
+}
+
+h3 {
+  margin-top: 55px;
+  margin-bottom: 5px;
+  }
+
+  h5 {
+    margin-bottom: 30px;
+  }
 
 
 /* ==============================
